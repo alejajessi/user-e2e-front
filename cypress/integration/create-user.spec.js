@@ -4,7 +4,6 @@ describe('When the user want to register  (without image url) ', () =>{
 
     before(()=>{
 
-        //Verificar si no existe ya el id que se va a añadir
         cy.visit('/');        
         cy.get('.btn-primary').click();
         cy.get("#firstname").type(user.name);

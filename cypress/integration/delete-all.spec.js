@@ -1,4 +1,4 @@
-import users from '../fixtures/secure-delete.json'
+import users from '../fixtures/list-users.json'
 import error from '../fixtures/error-messages.json'
 
 describe('When you want to delete all users ', () =>{
