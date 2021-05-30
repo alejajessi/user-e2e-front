@@ -1,13 +1,10 @@
-import users from '../fixtures/secure-delete.json'
+import users from '../fixtures/list-users.json'
 import error from '../fixtures/error-messages.json'
 
 describe('When you want to delete all users ', () =>{
 
     before(()=>{
         cy.visit('/');
-        if(cy.get('.text-white > .cursor').visible){
-        cy.get('.text-white > .cursor').click();
-        }
         for(let i = 0; i < users.user.length; i++){
             cy.get('.btn-primary').click();
             cy.get("#firstname").type(users.user[i].name);
