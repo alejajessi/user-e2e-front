@@ -38,7 +38,7 @@ describe('Given a registered user when the user wants to update that user ', () 
             })
 
             it('Then status code should be 200 OK',() => {
-                expect(response.statusCode).to.equal(200); //Not set 201 created in backend. Recommended
+                expect(response.statusCode).to.equal(200); 
             })
 
             it('Then username and name are the updated values',() => {
