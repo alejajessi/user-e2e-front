@@ -32,13 +32,13 @@ describe('When user enter the web page and see all users', () =>{
     })
 
     it('Then status code should be 200 OK',() => {
-        expect(response.statusCode).to.equal(200); //Not set 201 created in backend. Recommended
+        expect(response.statusCode).to.equal(200); 
     })
 
-    it('Then display more than 0 books',async() => { //More than 0 because by default are 20
+    it('Then display more than 0 books',async() => { 
         cy.get('.list-group').within(rowsOfUsers => {
             let numRows = Object.keys(rowsOfUsers).length;
-            expect(numRows).to.be.greaterThan(1) //1 because first it's the header [0,1,...n-1]
+            expect(numRows).to.be.greaterThan(1)
         });
     });
 

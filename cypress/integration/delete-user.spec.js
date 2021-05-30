@@ -5,7 +5,6 @@ describe('When you want delete a specific user ', () =>{
 
     before(()=>{
 
-        //Verificar si no existe ya el id que se va a añadir
         cy.visit('/');
         cy.intercept('DELETE', '/api/latest/users/**').as('delete-user')        
         cy.get('.btn-primary').click();
