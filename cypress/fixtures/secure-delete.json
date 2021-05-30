@@ -1,0 +1,31 @@
+{
+    "user": [
+    {
+    "name" : "Carmen",
+    "lastName" : "Agudelo",
+    "typeDoc" : "TP - TarjetaPasaporte",
+    "url" :"https://cutt.ly/unaMq7D",
+    "numDoc" : "34343434",
+    "userName" : "carmencita",
+    "password" : "34343434"
+    },
+    {
+        "name" : "Alejandro",
+        "lastName" : "Lazaro",
+        "typeDoc" : "DNI - DocumentoNacionalIdentidad",
+        "url" :"https://cutt.ly/unaMq7D",
+        "numDoc" : "56756756",
+        "userName" : "alejito123",
+        "password" : "56756756"
+    },
+    {
+        "name" : "Carlos",
+        "lastName" : "Fresquet",
+        "typeDoc" : "DNI - DocumentoNacionalIdentidad",
+        "url" :"https://cutt.ly/unaMq7D",
+        "numDoc" : "0101010101",
+        "userName" : "fresquet100",
+        "password" : "010100101"
+    }
+]
+}

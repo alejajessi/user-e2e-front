@@ -1,0 +1,5 @@
+{
+    "requiredFields" : "Revisa los campos de nuevo, los que tienen * son obligatorios",
+    "validUrl" : "Revisa la url ingresada * Debe ser valida",
+    "noUsers" : " No hay datos para mostrar "
+}
