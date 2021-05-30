@@ -4,6 +4,7 @@ import error from '../fixtures/error-messages.json'
 describe('When you want to delete all users ', () =>{
 
     before(()=>{
+        //Verificar porque no entra en el if, no lanza ni true ni false
         cy.visit('/');
         if(cy.get('.text-white > .cursor').visible){
         cy.get('.text-white > .cursor').click();
