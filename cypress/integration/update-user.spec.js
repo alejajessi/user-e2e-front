@@ -38,10 +38,10 @@ describe('Given a registered user when the user wants to update that user ', () 
             })
 
             it('Then status code should be 200 OK',() => {
-                expect(response.statusCode).to.equal(200); //Not set 201 created in backend. Recommended
+                expect(response.statusCode).to.equal(200); 
             })
 
-            it('Then username and name are the updated values',() => {
+            it('Then username is showed in prinpal page with updated value',() => {
                 cy.get(`[data-testid=${user.numDoc}]`).should(($p) => {
                     expect($p).to.contain(user.userName+"modifi");
                     expect($p).to.contain(user.numDoc);
